@@ -49,3 +49,13 @@ function calculatePentagonArea() {
   const pentagonArea = 0.5 * p * b;
   document.getElementById("area").innerText = "Pentagon Area : " + pentagonArea;
 }
+
+//------------ellipse area ----------------
+function calculateEllipseArea() {
+  const ellipseA = document.getElementById("ellipse-a");
+  const ellipseB = document.getElementById("ellipse-b");
+  const a = parseFloat(ellipseA.value);
+  const b = parseFloat(ellipseB.value);
+  const ellipseArea = 3.1416 * a * b;
+  document.getElementById("area").innerText = "Ellipse Area : " + ellipseArea;
+}
