@@ -39,3 +39,13 @@ function calculateRhombusArea() {
   const rhombusArea = 0.5 * d1 * d2;
   document.getElementById("area").innerText = "Rhombus Area : " + rhombusArea;
 }
+
+//--------pentagon area --------------
+function calculatePentagonArea() {
+  const pentagonP = document.getElementById("pentagon-p");
+  const pentagonB = document.getElementById("pentagon-b");
+  const p = parseFloat(pentagonP.value);
+  const b = parseFloat(pentagonB.value);
+  const pentagonArea = 0.5 * p * b;
+  document.getElementById("area").innerText = "Pentagon Area : " + pentagonArea;
+}
