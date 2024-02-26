@@ -109,24 +109,21 @@
             <img src="geometry-genius-resources/images/rhombus.png" alt="" />
             <h3 class="text-2xl font-bold text-center mt-12">Rhombus</h3>
 
-            <p class="text-base text-center">Area (A) = 0.5 X d<sup>2</sup></p>
-            <input
-              type="text"
-              placeholder="b"
-              class="w-20"
-              id="parallelogram-base"
-            />
+            <p class="text-base text-center">
+              Area (A) = 0.5 X d<sub>1</sub> X d<sub>2</sub>
+            </p>
+            <input type="text" placeholder="d1" class="w-20" id="rhombus-d1" />
             <span>cm</span>
             <input
               type="text"
               name=""
-              id="parallelogram-height"
-              placeholder="h"
+              id="rhombus-d2"
+              placeholder="d2"
               class="w-20"
             />
             <span>cm</span>
             <button
-              onclick="calculateParallelogramArea()"
+              onclick="calculateRhombusArea()"
               class="btn bg-blue-600 text-white w-full mt-12"
             >
               Calculate
